@@ -17,20 +17,24 @@ a person. The Locate API has no costs.
 
    NOTE: restrict the use of the API key to the Locate API. Adding no
    restrictions may allow an attacker to use the API key for other services
-   without your knowledge. See [best practices for API keys](/) for more
+   without your knowledge. See [best practices for API keys][bp] for more
    information.
 
 3. Copy the key to the clipboard.
 4. Click **Close**.
+
+[bp]: https://cloud.google.com/docs/authentication/api-keys
 
 ## Enable the API
 
 Before you can make calls to this API, you need to enable it in the Cloud
 Platform project you created.
 
-1. [View this API](https://console.developers.google.com/apis/api/{{apiHost}}/overview) in the Google APIs Console.
+1. [View this API][api] in the Google APIs Console.
 2. Click the **Enable** button, then wait for it to complete.
 3. You can now call the API using the API key you created!
+
+[api]: https://console.developers.google.com/apis/api/locate-dot-mlab-sandbox.appspot.com/overview
 
 ## Using the API
 
